@@ -1,0 +1,50 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/bind/index",
+    "pages/mine/index",
+    "pages/user/index/index",
+    "pages/user/add/index",
+    "pages/goods/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff4a4a",
+    "borderStyle": "gray",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/homepage.png",
+        "selectedIconPath": "assets/homepage_fill.png"
+      },
+      {
+        "pagePath": "pages/goods/index/index",
+        "text": "商品管理",
+        "iconPath": "assets/manage.png",
+        "selectedIconPath": "assets/manage_fill.png"
+      },
+      {
+        "pagePath": "pages/user/index/index",
+        "text": "用户管理",
+        "iconPath": "assets/group.png",
+        "selectedIconPath": "assets/group_fill.png"
+      }
+    ]
+  }
+}

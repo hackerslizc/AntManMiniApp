@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "record": "/components/record/index"
+  }
+}

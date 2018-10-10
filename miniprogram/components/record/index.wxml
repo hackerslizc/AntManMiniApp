@@ -1,0 +1,9 @@
+<view class='record'>
+  <view
+    wx:for="{{recordlist}}"
+    wx:for-item="item"
+    wx:for-index="index"
+    wx:key="{{index}}">
+    {{item}}
+  </view>
+</view>

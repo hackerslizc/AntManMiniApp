@@ -1,0 +1,11 @@
+<view class='container'>
+  <view class=''>
+    <view class='today-info'>
+      
+    </view>
+    <record list="{{recordList}}"></record>
+  </view>
+  <view class=''>
+    请授权
+  </view>
+</view>
