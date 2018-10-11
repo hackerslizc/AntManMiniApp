@@ -1,6 +1,5 @@
-const Index = {
+const RecordAdd = {
   data: {
-    recordList: [1, 2, 3, 4, 5]
   },
   onLoad: function (options) {
 
@@ -12,4 +11,4 @@ const Index = {
 
   },
 };
-Page(Index);
+Page(RecordAdd);

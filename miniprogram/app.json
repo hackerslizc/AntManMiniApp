@@ -12,13 +12,14 @@
     "pages/mine/index",
     "pages/user/index/index",
     "pages/user/add/index",
-    "pages/goods/index/index"
+    "pages/goods/index/index",
+    "pages/record/add/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "进销存管理系统",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

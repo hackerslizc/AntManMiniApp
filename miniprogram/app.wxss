@@ -1,7 +1,48 @@
 /**app.wxss**/
 .container {
-  display: flex;
+  width: 100%;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
-} 
+  box-sizing: border-box; */
+}
+.flex-wrap{
+  display: flex;
+}
+.flex-item{
+  flex: 1;
+}
+.form-wrap {
+  padding-left: 32rpx;
+}
+.form-item {
+  font-size: 28rpx;
+  display: flex;
+  border-bottom: 1rpx solid #e8e8e8;
+  padding: 16rpx 32rpx 16rpx 0;
+}
+.form-item-label {
+  height: 54rpx;
+  line-height: 54rpx;
+}
+.form-item-label .label {
+  width: 180rpx;
+}
+.form-item-content {
+  flex: 1;
+}
+.form-item-content input {
+  height: 54rpx;
+}
+.form-item-tools {
+  
+}
+.btn{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  display: block;
+  background: #3895e8;
+  border-radius: 10rpx;
+  color: #fff;
+}

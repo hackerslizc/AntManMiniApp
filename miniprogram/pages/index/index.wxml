@@ -1,11 +1,28 @@
 <view class='container'>
-  <view class=''>
-    <view class='today-info'>
-      
+  <view class='today-info'>
+    <view class=''>12312321</view>
+  </view>
+  
+  <view class='column'>
+    <navigator  class='recordbtn' url='/pages/record/add/index'>记一笔</navigator>
+  </view>
+  <view class='record-wrapper'>
+    <view class='record-title'>今日记账</view>
+    <view class='record-list'>
+      <view class='record-item'>
+        <view class='flex-wrap'>
+          <view class='flex-item'>张三 15982316112</view>
+          <view>11</view>
+        </view>
+        <view class='flex-wrap'>
+          <view class='flex-item'>2018-10-11 18:25:11</view>
+          <view>￥168.89</view>
+        </view>
+      </view>
     </view>
-    <record list="{{recordList}}"></record>
   </view>
-  <view class=''>
+  <!-- <record list="{{recordList}}"></record> -->
+  <!-- <view class=''>
     请授权
-  </view>
+  </view> -->
 </view>

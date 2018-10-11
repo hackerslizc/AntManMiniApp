@@ -1,1 +1,35 @@
-/* miniprogram/pages/index/index.wxss */
+.column {
+  width: 100%;
+  padding: 32rpx;
+  box-sizing: border-box;
+}
+.today-info {
+  width: 100%;
+  padding: 32rpx;
+  box-sizing: border-box;
+  background: #3895e8
+}
+.recordbtn {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  display: block;
+  background: #3895e8;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.record-wrapper {
+  padding: 32rpx 0 0 32rpx;
+}
+.record-title {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.record-list {
+}
+.record-list .record-item {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 16rpx 32rpx 16rpx 0;
+  font-size: 30rpx;
+}
+
