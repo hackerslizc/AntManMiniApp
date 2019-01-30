@@ -2,9 +2,10 @@
   <view class='user-list'>
     <view class='user-item'
       wx:for="{{userList}}" wx:for-index="idx" wx:for-item="item" wx:key="idx">
-      <view>{{item.name}}</view>
-      <view>{{item.phone}}</view>
-      <view>{{item.dplate_no}}</view>
+      <view>姓名： {{item.name}}</view>
+      <view>电话： {{item.phone}}</view>
+      <view>车牌号： {{item.dplate_no}}</view>
+      <view>用户类型： {{item.userTypeStr || item.userType}}</view>
     </view>
   </view>
   <view class='column'>
