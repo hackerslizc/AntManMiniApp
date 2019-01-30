@@ -1,2 +1,67 @@
-<!--miniprogram/pages/user/add/index.wxml-->
-<text>miniprogram/pages/user/add/index.wxml</text>
+<view class='container'>
+  <view class='form-wrap'>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>姓名</view>
+      </view>
+      <view class='form-item-content'>
+        <input type='text' maxlength='20'/>
+      </view>
+      <view class='form-item-tool'></view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>电话</view>
+      </view>
+      <view class='form-item-content'>
+        <input type='number' maxlength='11'></input>
+      </view>
+      <view class='form-item-tool'></view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>车牌号</view>
+      </view>
+      <view class='form-item-content'>
+        <input type='number' maxlength='11'></input>
+      </view>
+      <view class='form-item-tool'></view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>类型</view>
+      </view>
+      <view class='form-item-content'>
+        <picker 
+          bindchange="bindPickerChangeFn" 
+          value="{{userTypeIndex}}" 
+          range="{{UserTypeArr}}">
+          <view class="picker">
+            {{UserTypeArr[userTypeIndex]}}
+          </view>
+        </picker>
+      </view>
+      <view class='form-item-tool'></view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>住址</view>
+      </view>
+      <view class='form-item-content'><input type='text'></input></view>
+      <view class='form-item-tool'></view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-label'>
+        <view class='label'>身份证号</view>
+      </view>
+      <view class='form-item-content'>
+        <input type='idcard' maxlength='18'></input>
+      </view>
+      <view class='form-item-tool'></view>
+    </view>
+  </view>
+  
+  <view class='column'>
+    <view  class='btn'>提交</view>
+  </view>
+</view>

@@ -1,2 +1,13 @@
-<!--miniprogram/pages/user/index/index.wxml-->
-<text>miniprogram/pages/user/index/index.wxml</text>
+<view class='container'>
+  <view class='user-list'>
+    <view class='user-item'
+      wx:for="{{userList}}" wx:for-index="idx" wx:for-item="item" wx:key="idx">
+      <view>{{item.name}}</view>
+      <view>{{item.phone}}</view>
+      <view>{{item.dplate_no}}</view>
+    </view>
+  </view>
+  <view class='column'>
+    <navigator  class='btn adduser' url='/pages/user/add/index'>新增用户</navigator>
+  </view>
+</view>

@@ -37,6 +37,6 @@
   </view>
   
   <view class='column'>
-    <view  class='btn'>记一笔</view>
+    <view  class='btn'>提交</view>
   </view>
 </view>

@@ -1,1 +1,5 @@
-/* miniprogram/pages/user/index/index.wxss */
+.adduser{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
